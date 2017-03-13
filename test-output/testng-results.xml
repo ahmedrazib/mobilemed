@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="46971" started-at="2017-03-01T11:37:18Z" finished-at="2017-03-01T11:38:05Z">
+    <groups>
+    </groups>
+    <test name="MobileMed" duration-ms="46971" started-at="2017-03-01T11:37:18Z" finished-at="2017-03-01T11:38:05Z">
+      <class name="com.appdragon.mobilemed.test.Landing">
+        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.appdragon.mobilemed.test.Landing@d8355a8]" name="checkTitle" duration-ms="29872" started-at="2017-03-01T17:37:19Z" finished-at="2017-03-01T17:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkLogin(java.util.List)[pri:3, instance:com.appdragon.mobilemed.test.Landing@d8355a8]" name="checkLogin" duration-ms="14287" started-at="2017-03-01T17:37:51Z" data-provider="loginData" finished-at="2017-03-01T17:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Login [userName=doctor1, password=Smartmed1]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+      </class> <!-- com.appdragon.mobilemed.test.Landing -->
+    </test> <!-- MobileMed -->
+  </suite> <!-- Suite1 -->
+</testng-results>

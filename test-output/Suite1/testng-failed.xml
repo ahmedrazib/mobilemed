@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="MobileMed(failed)">
+    <classes>
+      <class name="com.appdragon.mobilemed.test.Landing">
+        <methods>
+          <include name="checkLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.appdragon.mobilemed.test.Landing -->
+    </classes>
+  </test> <!-- MobileMed(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
